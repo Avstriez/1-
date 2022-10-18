@@ -31,3 +31,8 @@ if (number == 7)
 {
     Console.WriteLine("Восскресенье");
 }
+
+else 
+{
+    Console.WriteLine("На земле 7 дней в неделе");
+}
