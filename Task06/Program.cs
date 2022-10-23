@@ -6,9 +6,9 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 if (number % 2 == 1)
 {
-Console.WriteLine("No");
+    Console.WriteLine("No");
 }
 else
 {
-Console.WriteLine("Yes");
+    Console.WriteLine("Yes");
 }
