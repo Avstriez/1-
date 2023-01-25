@@ -4,7 +4,7 @@
 
 void GetDist(int x1, int y1, int x2, int y2)
 {
-    double dist = Math.Pow(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2), 0.5);
+    double dist = Math.Pow(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2), 0.5); //Math.Pow (степень)
     Console.Write(dist);
 }
 
