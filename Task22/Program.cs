@@ -8,8 +8,8 @@ void OutNumbers(int num)
     int i = 1;
     while (i <= num)
     {
-        Console.Write(Math.Pow(i, 2));
-        if (i < num) Console.Write(", ");
+        Console.Write(Math.Pow(i, 2)); //Math.Pow (степень) или i*i
+        if (i < num) Console.Write(", "); //Проверка чтобы не ставить ,
         i++;
     }
 }
