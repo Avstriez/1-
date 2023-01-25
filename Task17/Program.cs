@@ -33,6 +33,8 @@ int GetNum(string text) //создаем первый метод(функцию)
 int x = GetNum("Введите значение х");
 int y = GetNum("Введите значение y");
 
+Console.Write("четверть: "); 
+
 //Определить четверть
 CheckQuaters(x, y);
 
