@@ -3,9 +3,8 @@
 //-3; массив [6, 7, 19, 345, 3] -> да
 
 string FindNumber(int[] arr, int find)
-{
-    int size = arr.Length;
-    for (int index = 0; index < size; index++)
+{  
+    for (int index = 0; index < arr.Length; index++)
     {
         if (arr[index] == find)
         {
