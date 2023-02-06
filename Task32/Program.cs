@@ -11,12 +11,12 @@ void GetSumPlusOrMinus(int[] arr)
     }
 }
 
-int[] GetArray(int size, int start, int finish)
+int[] GetArray(int size, int from, int to)
 {
     int[] emptyArray = new int[size];
     for (int index = 0; index < size; index++)
     {
-        emptyArray[index] = new Random().Next(start, finish + 1);
+        emptyArray[index] = new Random().Next(from, to + 1);
     }
     return emptyArray;
 }
