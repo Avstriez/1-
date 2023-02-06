@@ -10,7 +10,7 @@ int CountNumbers(int[] arr)
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        if (arr[i] <100 && arr[i] > 10)
+        if (arr[i] < 100 && arr[i] >= 10)
         {
             count++;
         }
