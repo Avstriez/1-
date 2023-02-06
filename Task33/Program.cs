@@ -28,6 +28,6 @@ int[] GetArray(int size, int from, int to)
 int[] array = GetArray(12, 0, 9); // Генерируем массив
 Console.WriteLine(string.Join(", ", array));
 
-Console.WriteLine("В массиве число 4 присутствует? -> " + FindNumber(array, 4)); 
-
-
+Console.WriteLine("В массиве число 1 присутствует? -> " + FindNumber(array, 1)); 
+Console.WriteLine("В массиве число 2 присутствует? -> " + FindNumber(array, 2)); 
+Console.WriteLine("В массиве число 3 присутствует? -> " + FindNumber(array, 3));  
