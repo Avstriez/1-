@@ -31,4 +31,3 @@ Console.WriteLine(string.Join(", ", array));
 int maxNumber = GetMinMaxNumber(array, true);
 int minNumber = GetMinMaxNumber(array, false);
 Console.WriteLine($"разница между {maxNumber} и {minNumber} = {maxNumber - minNumber}");
-
