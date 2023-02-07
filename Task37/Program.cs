@@ -7,15 +7,15 @@
 int[] MultiplicationNumbers(int[] array)
 {
     int len = (array.Length + array.Length % 2) / 2;
-    int[] arrayResult = new int(len);
-    for (i = 0; i < len; i++)
+    int[] arrayResult = new int[len];
+    for (int i = 0; i < len; i++)
     {
         arrayResult[i] = array[i] * array[^(i+1)];
     }
 
     if(array.Length % 2 == 1)
     {
-        array.Result[^1] = array[len - 1];
+        arrayResult[^1] = array[len - 1];
     }
     return arrayResult;
 }
