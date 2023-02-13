@@ -4,7 +4,7 @@
 
 b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)    */
 
-string GetCrossPoint(int b1, int k1, int b2, int k2)
+string GetCrossPoint(double b1, double k1, double b2, double k2)
 {
     double x = (b2 - b1) / (k1 - k2);
     double y = (k1 * (b2 - b1)) / (k1 - k2) + b1;
@@ -23,4 +23,4 @@ int k1 = GetNumber("Введите значение k1: ");
 int b2 = GetNumber("Введите значение b2: ");
 int k2 = GetNumber("Введите значение k2: "); //$"две прямые пересекутся в точке с координатами
 
-Console.WriteLine($"две прямые пересекутся в точке с координатами: {GetCrossPoint(b1, k1, b2, k2)}");
+Console.WriteLine($"две прямые пересекутся в точке с координатами: {GetCrossPoint(b1, k1, b2, k2)}"); 
