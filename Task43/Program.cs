@@ -21,6 +21,6 @@ int GetNumber(string text)
 int b1 = GetNumber("Введите значение b1: ");
 int k1 = GetNumber("Введите значение k1: ");
 int b2 = GetNumber("Введите значение b2: ");
-int k2 = GetNumber("Введите значение k2: "); //$"две прямые пересекутся в точке с координатами
+int k2 = GetNumber("Введите значение k2: ");
 
 Console.WriteLine($"две прямые пересекутся в точке с координатами: {GetCrossPoint(b1, k1, b2, k2)}"); 
