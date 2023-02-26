@@ -2,15 +2,11 @@
 N = 5 -> "1, 2, 3, 4, 5"
 N = 6 -> "1, 2, 3, 4, 5, 6"     */
 
-void PrintNumbers(int num, int currentNum = 1)
+void PrintNumbers(int N)
 {
-    if (currentNum == num)
-    {
-        Console.WriteLine(num);
-        return;
-    }
-    Console.Write(currentNum + ", ");
-    PrintNumbers(num, currentNum + 1);  
+    if (N == 0) return;
+    PrintNumbers(N -1);
+    Console.Write($"{N}, ");
 }
 
 int GetNum(string text)
