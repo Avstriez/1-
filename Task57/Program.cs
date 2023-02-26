@@ -37,10 +37,12 @@ void ShowMatrix(int[,] matrix)
 
 int[] Element(int[,] matrix)
 {
+    int sizeM = matrix.GetLength(0);
+    int sizeN = matrix.GetLength(1);
     int[] arrayNew = new int[10];
-    for (int i = 0; i < arrayNew.GetLength(0); i++)
+    for (int i = 0; i < sizeM; i++)
     {
-        for (int j = 0; j < arrayNew.GetLength(1); j++)
+        for (int j = 0; j < sizeN; j++)
         {
             arrayNew[matrix[i, j]] += 1;
         }
@@ -54,7 +56,5 @@ int[,] matrix = GenerateMatrix(m, n, 0, 9);
 ShowMatrix(matrix);
 int[] element = Element(matrix);
 for (int i = 0; i < element.Length; i++)
-{
     if (element[i] > 0)
     Console.WriteLine($"{i} встречается {element[i]} раз"); 
-}
